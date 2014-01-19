@@ -5,7 +5,7 @@ var path    = require('path');
 var helpers = require('yeoman-generator').test;
 
 
-describe('proto generator', function () {
+describe('lo generator', function () {
     beforeEach(function (done) {
         helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
             if (err) {

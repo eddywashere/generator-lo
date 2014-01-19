@@ -3,7 +3,7 @@
 
 var assert = require('assert');
 
-describe('proto generator', function () {
+describe('lo generator', function () {
     it('can be imported without blowing up', function () {
         var app = require('../app');
         assert(app !== undefined);

@@ -1,6 +1,6 @@
 # generator-lo [![Build Status](https://secure.travis-ci.org/eddywashere/generator-lo.png?branch=master)](https://travis-ci.org/eddywashere/generator-lo)
 
-A generator for [Yeoman](http://yeoman.io).
+A [Yeoman](http://yeoman.io) generator for prototyping static sites with jekyll, grunt, bower and compass.
 
 
 ## Getting Started
@@ -32,7 +32,7 @@ $ npm install -g generator-lo
 Finally, initiate the generator:
 
 ```
-$ yo proto
+$ yo lo
 ```
 
 ### Getting To Know Yeoman
