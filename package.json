@@ -1,0 +1,54 @@
+{
+  "name": "generator-lo",
+  "version": "0.1.0",
+  "description": "A Yeoman generator for prototyping static sites with jekyll, grunt, bower and compass",
+  "keywords": [
+    "yeoman-generator",
+    "generator",
+    "init",
+    "templates",
+    "init",
+    "markdown",
+    "site generator",
+    "static",
+    "prototyping",
+    "bower",
+    "compass",
+    "sass",
+    "scss",
+    "jekyll"
+  ],
+  "homepage": "https://github.com/eddywashere/generator-lo",
+  "bugs": "https://github.com/eddywashere/generator-lo/issues",
+  "author": {
+    "name": "Eddy Hernandez",
+    "email": "edward.d.hernandez@gmail.com",
+    "url": "https://github.com/eddywashere"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eddywashere/generator-lo.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

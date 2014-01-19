@@ -1,0 +1,23 @@
+{
+  "name": "<%= _.slugify(projectName) %>",
+  "version": "0.0.0",
+  "dependencies": {
+    "grunt-contrib-watch": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-exec": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-connect": "*"<% if (compass) { %>,
+    "grunt-contrib-compass": "*"<% } %><% if (bower) { %>,
+    "bower": "*"<% } %>
+  },
+  "scripts": {
+    "start": "node node_modules/grunt-cli/bin/grunt"<% if (bower) { %>,
+    "postinstall": "node node_modules/bower/bin/bower install && bundle install"<% } %>
+  },
+  "keywords": [
+    "jekyll",
+    "grunt",
+    "prototyping"
+  ]
+}
