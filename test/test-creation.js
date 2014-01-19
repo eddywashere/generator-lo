@@ -12,7 +12,7 @@ describe('proto generator', function () {
                 return done(err);
             }
 
-            this.app = helpers.createGenerator('proto:app', [
+            this.app = helpers.createGenerator('lo:app', [
                 '../../app'
             ]);
             done();
