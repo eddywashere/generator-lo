@@ -6,6 +6,9 @@ module.exports = function(grunt) {
     compass: {
       all: {
         config: 'config.rb'
+      },
+      options: {
+        bundleExec: true
       }
     },<% } %>
     connect: {
@@ -97,5 +100,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-exec');
 
   grunt.registerTask('default', ['connect', <% if (compass) { %>'compass',<% } %> 'exec:build', 'watch']);
+  grunt.registerTask('anvil', [<% if (compass) { %>'compass',<% } %> 'exec:build', 'watch']);
+  grunt.registerTask('serve', ['default']);
 
 };
